@@ -1,0 +1,66 @@
+\documentclass[12pt, twoside]{article}
+
+\linespread{1.5}
+\setlength{\parskip}{\baselineskip}%
+\setlength{\parindent}{0pt}%
+
+
+\usepackage[top=1in, bottom=1in, inner=1.5in,outer=1in]{geometry} %left=4cm,right=2cm would be equivalent
+\usepackage{mathtools}
+\usepackage{color}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\setlength{\belowdisplayskip}{0pt} \setlength{\belowdisplayshortskip}{0pt}
+\setlength{\abovedisplayskip}{0pt} \setlength{\abovedisplayshortskip}{0pt}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+
+\fancyhead[LE,RO]{\slshape \rightmark}
+\fancyhead[LO,RE]{\slshape \leftmark}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+
+\usepackage{blkarray}
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{blindtext}
+\usepackage{tabularx}
+\usepackage{float}
+\usepackage{setspace}
+\usepackage[refpage]{nomencl}
+
+
+
+\newcommand{\hl}[1]{\colorbox{yellow}{#1}}
+\newcommand\abs[1]{\left|#1\right|}
+\newcommand\scalemath[2]{\scalebox{#1}{\mbox{\ensuremath{\displaystyle #2}}}}
+
+\numberwithin{equation}{section}
+\setcounter{MaxMatrixCols}{15}
+\DeclareMathOperator{\erf}{erf}
+\DeclareMathOperator{\erfc}{erfc}
+
+\makeatletter
+\newcommand*{\centerfloat}{%
+  \parindent \z@
+  \leftskip \z@ \@plus 1fil \@minus \textwidth
+  \rightskip\leftskip
+  \parfillskip \z@skip}
+\makeatother
+
+\abovedisplayskip=0pt plus 0pt minus 0pt
+\abovedisplayshortskip=0pt plus 0pt
+\belowdisplayskip=12pt plus 3pt minus 9pt
+\belowdisplayshortskip=7pt plus 3pt minus 4pt
+
+\begin{document}
+$body$
+\end{document}
